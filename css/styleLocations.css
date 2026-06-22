@@ -1,0 +1,110 @@
+/* HESTER ASPHALT — LOCATIONS HUB + LOCATION PAGES */
+
+/* ---------- Hub grid ---------- */
+.loc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.loc-card { padding: 28px 24px; display: flex; flex-direction: column; gap: 6px; position: relative; }
+.loc-state {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(244, 121, 33, 0.55);
+}
+.loc-card h3 { font-size: 24px; }
+.loc-card p { font-size: 13.5px; color: var(--dim); flex: 1; }
+.loc-card .link-arrow { font-size: 13.5px; margin-top: 14px; }
+
+/* ---------- Detail layout ---------- */
+.loc-detail-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.85fr;
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+}
+.loc-p { color: var(--mute); margin-bottom: 18px; font-size: 16.5px; }
+.loc-p-lead { color: var(--paper); font-size: 18px; }
+
+.loc-angle {
+  display: flex;
+  gap: 18px;
+  padding: 26px 26px;
+  align-items: flex-start;
+  border-left: 3px solid var(--orange);
+}
+.loc-angle svg { width: 26px; height: 26px; color: var(--orange); flex: none; margin-top: 3px; }
+.loc-angle h3 { font-size: 21px; margin-bottom: 8px; }
+.loc-angle p { font-size: 14.5px; color: var(--mute); }
+
+.loc-aside { padding: 28px 26px; margin-bottom: 20px; }
+.loc-services a {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14.5px;
+  color: var(--mute);
+  transition: color 0.2s, padding-left 0.25s var(--ease);
+}
+.loc-services a:last-child { border-bottom: 0; }
+.loc-services a:hover { color: var(--orange-bright); padding-left: 5px; }
+
+/* ---------- Process list ---------- */
+.loc-process { counter-reset: lp; display: grid; gap: 12px; }
+.loc-process li {
+  counter-increment: lp;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  background: var(--coal-800);
+  border: 1px solid var(--line);
+  padding: 15px 18px;
+  color: var(--mute);
+  font-size: 15px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+.loc-process li::before {
+  content: "0" counter(lp);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--orange);
+}
+.loc-process strong { color: var(--paper); }
+
+/* ---------- Nearby links ---------- */
+.loc-near {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  font-size: 14.5px;
+}
+.loc-near span {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.loc-near a { color: var(--mute); transition: color 0.2s; }
+.loc-near a:hover { color: var(--orange-bright); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1000px) {
+  .loc-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 900px) {
+  .loc-detail-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .loc-grid { grid-template-columns: 1fr; }
+}

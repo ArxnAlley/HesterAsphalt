@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration of fresh parking lot line striping in perspective">
+  <defs>
+    <linearGradient id="lsGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101216"/><stop offset="1" stop-color="#070809"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#1a1d21"/>
+  <path d="M0 150h800v370H0z" fill="url(#lsGround)"/>
+  <path d="M0 150h800v8H0z" fill="#2d3239"/>
+  <!-- perspective stalls -->
+  <g stroke="#f2f1ed" stroke-linecap="round">
+    <path d="M390 170 240 520" stroke-width="10"/>
+    <path d="M430 170 400 520" stroke-width="10"/>
+    <path d="M470 170 560 520" stroke-width="10"/>
+    <path d="M510 170 720 520" stroke-width="10"/>
+    <path d="M350 170 80 520" stroke-width="10" stroke="#ffc933"/>
+  </g>
+  <!-- wet paint glow on freshest line -->
+  <path d="M350 170 80 520" stroke="#ffc933" stroke-width="22" stroke-linecap="round" opacity="0.16"/>
+  <!-- striper machine -->
+  <g transform="translate(96,300) rotate(-12)">
+    <rect x="0" y="0" width="120" height="56" fill="#f47921"/>
+    <rect x="16" y="-30" width="50" height="30" fill="#22262b"/>
+    <path d="M120 20h36l-8 36h-28z" fill="#22262b"/>
+    <circle cx="28" cy="64" r="17" fill="#0d0e10" stroke="#4a515a" stroke-width="5"/>
+    <circle cx="94" cy="64" r="17" fill="#0d0e10" stroke="#4a515a" stroke-width="5"/>
+    <path d="M-4 56l-22 14" stroke="#ffc933" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- stencil arrow on lot -->
+  <g transform="translate(600,250) scale(1.15)" fill="#f2f1ed" opacity="0.92">
+    <path d="M0 60 22 18h12L56 60H42L32 38h-8L14 60z" transform="skewX(-18)"/>
+  </g>
+  <!-- horizon cones -->
+  <g>
+    <path d="M640 168l9-22 9 22z" fill="#f47921"/><rect x="636" y="166" width="26" height="5" fill="#c95a0e"/>
+    <path d="M706 168l9-22 9 22z" fill="#f47921"/><rect x="702" y="166" width="26" height="5" fill="#c95a0e"/>
+  </g>
+</svg>

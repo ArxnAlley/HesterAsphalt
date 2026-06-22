@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration of a parking lot maintenance plan with inspection checklist">
+  <rect width="800" height="520" fill="#1a1d21"/>
+  <!-- lot plan -->
+  <g transform="translate(60,70)">
+    <rect width="420" height="380" fill="#0d0e10" stroke="#2d3239" stroke-width="3"/>
+    <path d="M0 160h420v52H0z" fill="#16181c"/>
+    <path d="M14 186h392" stroke="#ffc933" stroke-width="3" stroke-dasharray="22 16"/>
+    <g stroke="#f2f1ed" stroke-width="3" opacity="0.85">
+      <path d="M50 16v120M120 16v120M190 16v120M260 16v120M330 16v120"/>
+      <path d="M50 236v120M120 236v120M190 236v120M260 236v120M330 236v120"/>
+    </g>
+    <!-- flagged issues -->
+    <g>
+      <circle cx="92" cy="300" r="17" fill="none" stroke="#f47921" stroke-width="3.4" stroke-dasharray="5 5"/>
+      <path d="M84 300l16 0M92 292v16" stroke="#f47921" stroke-width="3"/>
+      <circle cx="306" cy="76" r="17" fill="none" stroke="#f47921" stroke-width="3.4" stroke-dasharray="5 5"/>
+      <path d="M298 76h16M306 68v16" stroke="#f47921" stroke-width="3"/>
+    </g>
+  </g>
+  <!-- clipboard -->
+  <g transform="translate(540,86)">
+    <rect width="200" height="296" fill="#22262b" stroke="#2d3239" stroke-width="3"/>
+    <rect x="64" y="-14" width="72" height="28" rx="6" fill="#f47921"/>
+    <g font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" letter-spacing="2" fill="#a8aeb6" font-size="15">
+      <text x="52" y="56">SEALCOAT</text>
+      <text x="52" y="112">CRACK FILL</text>
+      <text x="52" y="168">RESTRIPE</text>
+      <text x="52" y="224">DRAINAGE</text>
+    </g>
+    <g fill="none" stroke="#ffc933" stroke-width="3.6" stroke-linecap="round">
+      <rect x="20" y="40" width="20" height="20" stroke="#4a515a"/>
+      <path d="M23 50l6 7 10-13"/>
+      <rect x="20" y="96" width="20" height="20" stroke="#4a515a"/>
+      <path d="M23 106l6 7 10-13"/>
+      <rect x="20" y="152" width="20" height="20" stroke="#4a515a"/>
+      <path d="M23 162l6 7 10-13"/>
+      <rect x="20" y="208" width="20" height="20" stroke="#4a515a"/>
+    </g>
+    <path d="M20 256h160" stroke="#2d3239" stroke-width="3"/>
+    <text x="20" y="282" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#f47921">SPRING PLAN</text>
+  </g>
+  <!-- connector -->
+  <path d="M480 260 540 234" stroke="#f47921" stroke-width="2.6" stroke-dasharray="7 7"/>
+</svg>

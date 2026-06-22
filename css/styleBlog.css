@@ -1,0 +1,155 @@
+/* HESTER ASPHALT — BLOG HUB + ARTICLES */
+
+/* ---------- Featured post ---------- */
+.feat-post {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: stretch;
+}
+.feat-post figure { overflow: hidden; min-height: 280px; }
+.feat-post figure img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.65s var(--ease); }
+.feat-post:hover figure img { transform: scale(1.04); }
+.feat-body {
+  padding: clamp(26px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+}
+.feat-body p { color: var(--mute); }
+
+/* ---------- Filter bar (shared look with projects) ---------- */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+.filter-btn {
+  background: var(--coal-800);
+  border: 1px solid var(--line-strong);
+  color: var(--mute);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+}
+.filter-btn:hover { color: var(--paper); border-color: var(--orange); }
+.filter-btn.is-on { background: var(--orange); border-color: var(--orange); color: #160e05; }
+
+/* ---------- Blog grid ---------- */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.blog-grid .post-card.is-hidden { display: none; }
+
+/* ---------- Article hero ---------- */
+.art-hero {
+  position: relative;
+  padding: clamp(150px, 20vh, 210px) 0 60px;
+  background: var(--coal-800);
+  overflow: hidden;
+}
+.art-hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.22;
+}
+.art-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(13, 14, 16, 0.4), var(--ink) 92%);
+}
+.art-hero .shell { position: relative; z-index: 1; }
+.art-title {
+  font-size: clamp(34px, 5vw, 58px);
+  max-width: 22ch;
+}
+.art-meta {
+  margin-top: 18px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+/* ---------- Article body ---------- */
+.article-body {
+  max-width: 760px;
+  font-size: 17px;
+  color: var(--mute);
+}
+.article-body p { margin-bottom: 22px; }
+.article-body p:first-child { color: var(--paper); font-size: 19px; }
+.article-body strong { color: var(--paper); }
+.article-body em { color: var(--paper); }
+.article-body a { color: var(--orange); border-bottom: 1px solid rgba(244, 121, 33, 0.35); transition: color 0.2s, border-color 0.2s; }
+.article-body a:hover { color: var(--orange-bright); border-color: var(--orange-bright); }
+.article-body h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  color: var(--paper);
+  margin: 40px 0 16px;
+}
+.article-body ul {
+  margin: 0 0 22px;
+  display: grid;
+  gap: 10px;
+}
+.article-body ul li {
+  position: relative;
+  padding-left: 26px;
+}
+.article-body ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 12px;
+  height: 4px;
+  background: var(--stripe);
+}
+.article-body blockquote {
+  margin: 34px 0;
+  padding: 22px 26px;
+  background: var(--coal-800);
+  border-left: 3px solid var(--orange);
+  color: var(--paper);
+  font-size: 16.5px;
+}
+
+/* ---------- Inline article CTA ---------- */
+.article-cta {
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 30px 32px;
+  flex-wrap: wrap;
+}
+.article-cta p { color: var(--mute); font-size: 14.5px; margin-top: 6px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1000px) {
+  .blog-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  .feat-post { grid-template-columns: 1fr; }
+  .feat-post figure { min-height: 200px; max-height: 260px; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .article-cta .btn { width: 100%; }
+}

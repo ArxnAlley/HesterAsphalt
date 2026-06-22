@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Annotated drone plan of a commercial repaving project">
+  <rect width="900" height="620" fill="#13151a"/>
+  <g stroke="#1c1f24" stroke-width="2">
+    <path d="M0 88h900M0 176h900M0 264h900M0 352h900M0 440h900M0 528h900"/>
+    <path d="M90 0v620M180 0v620M270 0v620M360 0v620M450 0v620M540 0v620M630 0v620M720 0v620M810 0v620"/>
+  </g>
+  <!-- property -->
+  <path d="M150 110h430v200H150z" fill="#22262b" stroke="#2d3239" stroke-width="3"/>
+  <text x="290" y="220" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="22" letter-spacing="4" fill="#4a515a">BUILDING</text>
+  <!-- lot phases -->
+  <path d="M150 330h280v210H150z" fill="#0a0b0d"/>
+  <path d="M430 330h150v210H430z" fill="#101216"/>
+  <path d="M580 330h220v210H580z" fill="#3c424a"/>
+  <g stroke="#f2f1ed" stroke-width="4" opacity="0.85">
+    <path d="M190 350v80M250 350v80M310 350v80M370 350v80"/>
+    <path d="M190 450v80M250 450v80M310 450v80M370 450v80"/>
+  </g>
+  <path d="M150 436h280" stroke="#ffc933" stroke-width="3" stroke-dasharray="18 14"/>
+  <!-- phase labels -->
+  <g font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" letter-spacing="3" font-size="17">
+    <text x="166" y="568" fill="#ffc933">PHASE 1 · PAVED + STRIPED</text>
+    <text x="436" y="568" fill="#f47921">PHASE 2 · SEALED</text>
+    <text x="596" y="568" fill="#a8aeb6">PHASE 3 · SCHEDULED</text>
+  </g>
+  <!-- annotations -->
+  <g stroke="#f47921" stroke-width="2.6" fill="none">
+    <circle cx="505" cy="430" r="26" stroke-dasharray="6 6"/>
+    <path d="M531 430h96"/>
+  </g>
+  <g font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" fill="#f2f1ed">
+    <text x="636" y="424" font-size="17" letter-spacing="2">FRESH SEALCOAT</text>
+    <text x="636" y="444" font-size="14" fill="#6d747d" letter-spacing="1">CURE: 24-48 HRS</text>
+  </g>
+  <!-- HUD corners -->
+  <g stroke="#f47921" stroke-width="3.4" fill="none">
+    <path d="M40 80V40h40M860 40h-40M860 80V40M40 540v40h40M860 540v40h-40"/>
+  </g>
+  <g font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" letter-spacing="3" font-size="15" fill="#6d747d">
+    <text x="44" y="30">HESTER ASPHALT · AERIAL SITE PLAN</text>
+    <text x="700" y="610">SCALE 1" = 40'</text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+HESTER ASPHALT SEALCOATING — VIDEO ASSET GENERATION PROMPTS
+============================================================
+
+The hero currently uses real company footage (heroLanding.mp4, carried over
+from the original shoot). The prompts below are production-ready inputs for
+AI video generation (Runway Gen-4 / Sora / Veo) or a shot list for a real
+drone videographer, to expand the footage library. Target: 1080p+, 24fps,
+8-12 second loops, muted, dark/late-afternoon grading to match the site's
+charcoal-and-safety-orange design system.
+
+------------------------------------------------------------
+1. HERO ALTERNATE — FRESH MAT STEAM (loop)
+------------------------------------------------------------
+Low tracking shot, 8 inches above fresh black asphalt, moving slowly forward.
+Heat shimmer and thin steam rising from the new mat. A paver machine occupies
+the upper third, slightly out of focus. Crew members in hi-vis yellow shirts.
+Late afternoon sun flaring low on the horizon, warm orange rim light against
+deep charcoal tones. Cinematic, shallow depth of field, seamless loop.
+
+------------------------------------------------------------
+2. DRONE FLYOVER — COMMERCIAL LOT REVEAL
+------------------------------------------------------------
+Top-down drone shot at 200 ft, slowly descending over a freshly sealcoated
+commercial parking lot. Jet-black surface with crisp white stall lines and a
+yellow fire lane. The camera yaws 15 degrees during descent. Surrounding
+green Ohio farmland and a brick commercial building edge the frame.
+Golden-hour shadows stretch across the lot. Smooth gimbal motion, 4K.
+
+------------------------------------------------------------
+3. SEALCOATING APPLICATION — SQUEEGEE PASS
+------------------------------------------------------------
+Side angle, knee height. A worker in a hi-vis shirt pulls a wide squeegee
+through wet coal-black sealer, leaving a glossy band beside faded grey
+asphalt. The wet edge catches an orange sunset reflection. Slow motion,
+120fps conformed to 24fps, droplets visible. Industrial and meditative.
+
+------------------------------------------------------------
+4. LINE STRIPING — MACHINE PASS AT DUSK
+------------------------------------------------------------
+Tracking alongside a walk-behind striping machine laying a bright white line
+across dark new asphalt at dusk. Fresh paint glistens. Traffic cones with
+reflective bands blur in the foreground. Cool blue dusk sky contrasts the
+warm work lights. Camera height 2 ft, parallel dolly move, seamless loop.
+
+------------------------------------------------------------
+5. CRACK FILLING — HOT RUBBER DETAIL
+------------------------------------------------------------
+Macro shot of hot rubberized crack filler flowing from an applicator wand
+into a crack, slight steam, material self-leveling glossy black. Worker's
+glove and boot soft in background. Single continuous 10-second pour.
+
+------------------------------------------------------------
+6. DRONE ORBIT — CREW AND PAVER
+------------------------------------------------------------
+70 ft altitude drone orbit (180 degrees) around a working asphalt paver and
+three-person crew laying a residential driveway. Dump truck feeding the
+hopper. Fresh black mat contrasts the tan graded base. Rural Ohio setting,
+big sky, late-day light. Slow constant orbit speed for loop potential.
+
+------------------------------------------------------------
+EDITING NOTES
+------------------------------------------------------------
+- Grade toward charcoal blacks (#0d0e10) and safety orange highlights.
+- Export: H.264 MP4, CRF 23, 1920x1080, ~6-10 MB per 10s loop preferred.
+- The current heroLanding.mp4 (33 MB) should be re-encoded to <8 MB before
+  production launch (see README.txt > PERFORMANCE).

@@ -1,0 +1,31 @@
+/* HESTER ASPHALT — CONTACT PAGE */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(24px, 4vw, 48px);
+  align-items: start;
+}
+
+.contact-info { display: grid; gap: 20px; }
+.info-card { padding: 30px 26px; }
+.info-card > svg { width: 28px; height: 28px; color: var(--orange); margin-bottom: 14px; }
+.info-card h3 { font-size: 21px; margin-bottom: 10px; }
+.info-big {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--paper);
+  line-height: 1.2;
+  transition: color 0.2s;
+}
+a.info-big:hover { color: var(--orange-bright); }
+.info-sub { font-size: 14px; color: var(--mute); margin-top: 10px; line-height: 1.6; }
+.info-card .link-arrow { margin-top: 14px; font-size: 15px; }
+
+.contact-form-wrap { padding: clamp(28px, 4vw, 46px); }
+
+@media (max-width: 900px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}

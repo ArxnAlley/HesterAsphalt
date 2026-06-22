@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-label="Hester Asphalt Sealcoating">
+  <!-- Badge mark -->
+  <g transform="translate(2,4) scale(1)">
+    <path d="M32 2 60 12v21c0 14.5-11.4 24.5-28 29C15.4 57.5 4 47.5 4 33V12z" fill="#1a1d21"/>
+    <path d="M32 2 60 12v21c0 14.5-11.4 24.5-28 29C15.4 57.5 4 47.5 4 33V12z" fill="none" stroke="#f47921" stroke-width="3"/>
+    <path d="M12 20h40" stroke="#2d3239" stroke-width="2"/>
+    <path d="M17.5 54 28.5 20h7L46.5 54c-4.2 2.6-9 4.7-14.5 6.2C26.6 58.7 21.7 56.6 17.5 54z" fill="#0d0e10"/>
+    <path d="M19 53.2 29.3 20.8" stroke="#f47921" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M45 53.2 34.7 20.8" stroke="#f47921" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M32 56.5V21.5" stroke="#ffc933" stroke-width="3" stroke-dasharray="7 5.5" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="78" y="40" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="2" fill="#f2f1ed">HESTER<tspan fill="#f47921"> ASPHALT</tspan></text>
+  <text x="79" y="60" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="6.5" fill="#a8aeb6">SEALCOATING · LEESBURG OH</text>
+</svg>

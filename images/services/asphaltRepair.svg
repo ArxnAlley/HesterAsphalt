@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration of asphalt driveway repair: a patched section compacted into worn pavement">
+  <rect width="800" height="520" fill="#16181c"/>
+  <rect x="40" y="40" width="720" height="440" fill="#2a2f36"/>
+  <!-- worn surface texture -->
+  <g stroke="#3c424a" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M90 100l40 50-24 40 36 54M620 120l-26 60 38 48-22 70M700 320l-30 50 24 60"/>
+    <circle cx="160" cy="380" r="4"/><circle cx="540" cy="100" r="4"/><circle cx="680" cy="220" r="3"/>
+  </g>
+  <!-- failed area cut out (squared edges) -->
+  <rect x="250" y="190" width="300" height="200" fill="#0a0b0d"/>
+  <rect x="250" y="190" width="300" height="200" fill="none" stroke="#f47921" stroke-width="4"/>
+  <!-- fresh patch fill -->
+  <rect x="262" y="202" width="276" height="176" fill="#101216"/>
+  <path d="M262 202h276L420 378H262z" fill="#f2f1ed" opacity="0.05"/>
+  <!-- plate compactor -->
+  <g transform="translate(330,210)">
+    <rect x="0" y="64" width="120" height="26" rx="4" fill="#22262b" stroke="#4a515a" stroke-width="3"/>
+    <rect x="26" y="22" width="64" height="44" fill="#f47921"/>
+    <path d="M58 22 90 -40" stroke="#a8aeb6" stroke-width="9" stroke-linecap="round"/>
+    <path d="M90 -40h44" stroke="#a8aeb6" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <!-- vibration marks -->
+  <g stroke="#ffc933" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <path d="M310 308c-8 6-8 14 0 20M298 300c-12 10-12 26 0 36"/>
+    <path d="M470 308c8 6 8 14 0 20M482 300c12 10 12 26 0 36"/>
+  </g>
+  <!-- cones -->
+  <g>
+    <path d="M120 452l16-38 16 38z" fill="#f47921"/><rect x="112" y="448" width="48" height="9" fill="#c95a0e"/>
+    <path d="M660 452l16-38 16 38z" fill="#f47921"/><rect x="652" y="448" width="48" height="9" fill="#c95a0e"/>
+  </g>
+  <path d="M40 40h720v440H40z" fill="none" stroke="#2d3239" stroke-width="3"/>
+  <text x="64" y="86" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="19" letter-spacing="4" fill="#6d747d">CUT · CLEAN · COMPACT</text>
+</svg>

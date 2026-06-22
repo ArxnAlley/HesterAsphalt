@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-label="Hester Asphalt service area map: Leesburg headquarters with Hillsboro, Greenfield, Washington Court House and Wilmington in surrounding Southern Ohio">
+  <defs>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f47921" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f47921" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .route { stroke: #f47921; stroke-width: 2.4; stroke-dasharray: 9 7; fill: none; opacity: 0.85; }
+      .town  { fill: #f2f1ed; font: 600 17px "Barlow Condensed", "Arial Narrow", Arial, sans-serif; letter-spacing: 1.4px; text-transform: uppercase; }
+      .county{ fill: #4a515a; font: 600 14px "Barlow Condensed", "Arial Narrow", Arial, sans-serif; letter-spacing: 5px; }
+      .node  { fill: #1a1d21; stroke: #ffc933; stroke-width: 2.4; }
+      .hwy   { fill: #6d747d; font: 600 12px "Barlow Condensed", "Arial Narrow", Arial, sans-serif; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- grid backdrop -->
+  <g stroke="#22262b" stroke-width="1">
+    <path d="M0 80h820M0 180h820M0 280h820M0 380h820M0 480h820M0 580h820"/>
+    <path d="M80 0v620M180 0v620M280 0v620M380 0v620M480 0v620M580 0v620M680 0v620"/>
+  </g>
+
+  <!-- county labels -->
+  <text x="430" y="430" class="county">HIGHLAND COUNTY</text>
+  <text x="560" y="120" class="county">FAYETTE CO.</text>
+  <text x="92" y="150" class="county">CLINTON CO.</text>
+
+  <!-- highway hints -->
+  <path d="M60 470 C 240 430 560 400 790 430" fill="none" stroke="#2d3239" stroke-width="8" stroke-linecap="round"/>
+  <text x="722" y="416" class="hwy">US-50</text>
+  <path d="M140 600 C 300 420 560 220 780 60" fill="none" stroke="#2d3239" stroke-width="8" stroke-linecap="round"/>
+  <text x="700" y="96" class="hwy">US-62</text>
+
+  <!-- routes from Leesburg hub -->
+  <path class="route" d="M388 318 L208 192"/>
+  <path class="route" d="M388 318 L596 170"/>
+  <path class="route" d="M388 318 L560 392"/>
+  <path class="route" d="M388 318 L432 470"/>
+
+  <!-- towns -->
+  <circle class="node" cx="208" cy="192" r="8"/><text class="town" x="120" y="174">Wilmington</text>
+  <circle class="node" cx="596" cy="170" r="8"/><text class="town" x="548" y="150">Washington C.H.</text>
+  <circle class="node" cx="560" cy="392" r="8"/><text class="town" x="582" y="398">Greenfield</text>
+  <circle class="node" cx="432" cy="470" r="8"/><text class="town" x="396" y="502">Hillsboro</text>
+
+  <!-- Leesburg hub -->
+  <circle cx="388" cy="318" r="48" fill="url(#hubGlow)"/>
+  <circle cx="388" cy="318" r="12" fill="#f47921"/>
+  <circle cx="388" cy="318" r="12" fill="none" stroke="#ffc933" stroke-width="2">
+    <animate attributeName="r" values="12;24" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text class="town" x="414" y="306" fill="#ffc933">Leesburg — HQ</text>
+
+  <!-- footer note -->
+  <text x="60" y="588" class="hwy">BASED AT 8889 GRIMSLEY RD · SERVING SURROUNDING SOUTHERN OHIO COMMUNITIES</text>
+</svg>

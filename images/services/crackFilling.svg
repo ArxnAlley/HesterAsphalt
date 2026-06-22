@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration of hot rubberized crack filler sealing a crack in asphalt">
+  <defs>
+    <linearGradient id="cfGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f47921"/><stop offset="1" stop-color="#ffc933"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#16181c"/>
+  <rect x="40" y="40" width="720" height="440" fill="#1f2227"/>
+  <!-- open cracks (unfilled, right side) -->
+  <g stroke="#0d0e10" stroke-width="7" fill="none" stroke-linejoin="round">
+    <path d="M520 90l36 58-22 44 40 62-18 48 30 58"/>
+    <path d="M640 70l-20 70 34 54-26 66 22 60"/>
+    <path d="M556 192l44 8M634 248l-38 16"/>
+  </g>
+  <!-- filled crack (left/centre) -->
+  <path d="M120 80l40 64-24 50 44 68-20 54 34 64" stroke="#0d0e10" stroke-width="16" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M120 80l40 64-24 50 44 68-20 54 34 64" stroke="url(#cfGlow)" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- applicator wand -->
+  <g transform="translate(196,316)">
+    <path d="M0 0 150-130" stroke="#a8aeb6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M150 -130 196-170" stroke="#22262b" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-8 4a18 18 0 1 0 24 22z" fill="#f47921"/>
+  </g>
+  <!-- heat shimmer -->
+  <g fill="none" stroke="#ffc933" stroke-width="3.4" stroke-linecap="round" opacity="0.5">
+    <path d="M158 250c-6-16 8-22 3-38"/>
+    <path d="M186 286c-6-16 8-22 3-38"/>
+  </g>
+  <!-- banked kettle -->
+  <g transform="translate(560,360)">
+    <rect x="0" y="0" width="150" height="76" fill="#22262b" stroke="#2d3239" stroke-width="3"/>
+    <rect x="14" y="-18" width="64" height="18" fill="#f47921"/>
+    <circle cx="34" cy="86" r="15" fill="#0d0e10" stroke="#4a515a" stroke-width="5"/>
+    <circle cx="116" cy="86" r="15" fill="#0d0e10" stroke="#4a515a" stroke-width="5"/>
+  </g>
+  <path d="M40 40h720v440H40z" fill="none" stroke="#2d3239" stroke-width="3"/>
+</svg>

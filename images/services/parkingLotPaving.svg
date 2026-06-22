@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Drone view illustration of a freshly paved and striped parking lot">
+  <rect width="800" height="520" fill="#1a1d21"/>
+  <!-- lot slab -->
+  <path d="M90 60h620v400H90z" fill="#0d0e10"/>
+  <path d="M90 60h620v400H90z" fill="none" stroke="#2d3239" stroke-width="3"/>
+  <!-- drive lane -->
+  <path d="M90 240h620v60H90z" fill="#13151a"/>
+  <path d="M100 270h600" stroke="#ffc933" stroke-width="4" stroke-dasharray="34 26"/>
+  <!-- stalls top -->
+  <g stroke="#f2f1ed" stroke-width="4" opacity="0.9">
+    <path d="M140 80v140M210 80v140M280 80v140M350 80v140M420 80v140M490 80v140M560 80v140M630 80v140"/>
+    <path d="M140 220h490" opacity="0.45"/>
+  </g>
+  <!-- stalls bottom -->
+  <g stroke="#f2f1ed" stroke-width="4" opacity="0.9">
+    <path d="M140 320v120M210 320v120M280 320v120M350 320v120M420 320v120M490 320v120M560 320v120M630 320v120"/>
+  </g>
+  <!-- ADA stall -->
+  <rect x="566" y="326" width="58" height="108" fill="#1c4f7c" opacity="0.55"/>
+  <g transform="translate(595,380)" fill="none" stroke="#f2f1ed" stroke-width="5" stroke-linecap="round">
+    <circle cx="0" cy="-18" r="6"/>
+    <path d="M0 -10v16l10 14M0 -2h12M-4 4a14 14 0 1 0 20 16"/>
+  </g>
+  <!-- island -->
+  <rect x="320" y="232" width="160" height="76" fill="#22262b"/>
+  <rect x="320" y="232" width="160" height="76" fill="none" stroke="#ffc933" stroke-width="3"/>
+  <circle cx="360" cy="270" r="14" fill="#2e4a32"/>
+  <circle cx="440" cy="270" r="14" fill="#2e4a32"/>
+  <!-- arrows -->
+  <g fill="#f2f1ed" opacity="0.85">
+    <path d="M190 262l26 8-26 8v-5h-40v-6h40z"/>
+    <path d="M650 278l-26-8 26-8v5h40v6h-40z"/>
+  </g>
+  <!-- corner crosshairs (drone HUD) -->
+  <g stroke="#f47921" stroke-width="3" fill="none">
+    <path d="M60 100V60h40M740 60h-40M740 100V60M60 420v40h40M740 420v40h-40"/>
+  </g>
+  <circle cx="400" cy="270" r="120" fill="none" stroke="#f47921" stroke-width="1.6" opacity="0.35" stroke-dasharray="6 8"/>
+</svg>

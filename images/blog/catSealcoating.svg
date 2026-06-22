@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Sealcoating category graphic">
+  <defs>
+    <linearGradient id="bsW" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#050607"/><stop offset="1" stop-color="#101216"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#3c424a"/>
+  <g stroke="#4a515a" stroke-width="4" fill="none">
+    <path d="M760 80l50 90-36 70 50 80-26 90 40 100M900 40l-30 110 56 84-40 120 36 110M1040 100l24 100-44 90 30 130"/>
+  </g>
+  <path d="M0 0h720L520 630H0z" fill="url(#bsW)"/>
+  <path d="M712 0h26L538 630h-26z" fill="#f47921"/>
+  <path d="M0 0h360L80 630H0z" fill="#f2f1ed" opacity="0.05"/>
+  <g transform="translate(560,170) rotate(24)">
+    <rect x="-130" y="0" width="260" height="26" rx="5" fill="#22262b" stroke="#f47921" stroke-width="4"/>
+    <path d="M0 0 110-150" stroke="#a8aeb6" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <text x="64" y="560" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="10" fill="#f2f1ed" opacity="0.16">SEALCOATING</text>
+</svg>

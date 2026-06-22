@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Commercial property category graphic">
+  <rect width="1200" height="630" fill="#1a1d21"/>
+  <!-- building -->
+  <path d="M120 240h420v180H120z" fill="#22262b"/>
+  <path d="M120 240h420v34H120z" fill="#2d3239"/>
+  <g fill="#16181c">
+    <rect x="160" y="300" width="60" height="80"/><rect x="250" y="300" width="60" height="80"/>
+    <rect x="340" y="300" width="60" height="80"/><rect x="430" y="300" width="60" height="80"/>
+  </g>
+  <rect x="300" y="206" width="60" height="34" fill="#f47921"/>
+  <!-- lot in front -->
+  <path d="M60 420h1080v150H60z" fill="#0d0e10"/>
+  <g stroke="#f2f1ed" stroke-width="6" opacity="0.9">
+    <path d="M160 440v110M280 440v110M400 440v110M520 440v110M640 440v110M760 440v110M880 440v110M1000 440v110"/>
+  </g>
+  <path d="M60 420h1080" stroke="#2d3239" stroke-width="5"/>
+  <!-- drone HUD ring -->
+  <circle cx="850" cy="220" r="120" fill="none" stroke="#f47921" stroke-width="3" stroke-dasharray="10 12" opacity="0.6"/>
+  <g stroke="#f47921" stroke-width="4" fill="none">
+    <path d="M790 160h-26v26M910 160h26v26M790 280h-26v-26M910 280h26v-26"/>
+  </g>
+  <text x="806" y="232" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="30" letter-spacing="6" fill="#f47921">SITE SCAN</text>
+  <text x="64" y="560" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="10" fill="#f2f1ed" opacity="0.16">COMMERCIAL</text>
+</svg>

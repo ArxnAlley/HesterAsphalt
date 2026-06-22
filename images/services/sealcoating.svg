@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration of sealcoat being applied, half restored jet black and half faded grey">
+  <defs>
+    <linearGradient id="scFresh" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0" stop-color="#050607"/><stop offset="0.55" stop-color="#101216"/><stop offset="1" stop-color="#070809"/>
+    </linearGradient>
+    <linearGradient id="scSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f1ed" stop-opacity="0.16"/><stop offset="1" stop-color="#f2f1ed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#1a1d21"/>
+  <!-- faded old asphalt (right) -->
+  <path d="M410 60h330v400H410z" fill="#3c424a"/>
+  <g stroke="#4a515a" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M470 100l30 44-18 36 26 40M560 140l-22 50 30 38M640 90l14 60-26 44 18 52M520 300l24 46-12 54M620 320l-20 40 26 50"/>
+  </g>
+  <!-- fresh sealcoat (left) -->
+  <path d="M60 60h350v400H60z" fill="url(#scFresh)"/>
+  <path d="M60 60h350L260 460H60z" fill="url(#scSheen)"/>
+  <!-- wet edge -->
+  <path d="M402 60h16v400h-16z" fill="#f47921"/>
+  <path d="M396 60h6v400h-6z" fill="#0d0e10"/>
+  <!-- squeegee -->
+  <g transform="rotate(8 520 180)">
+    <rect x="430" y="120" width="160" height="20" rx="4" fill="#22262b" stroke="#f47921" stroke-width="3"/>
+    <path d="M508 120 600 30" stroke="#a8aeb6" stroke-width="9" stroke-linecap="round"/>
+    <path d="M430 142h160l-10 14H440z" fill="#0d0e10"/>
+  </g>
+  <!-- drips of sealer -->
+  <g fill="#0d0e10">
+    <circle cx="440" cy="200" r="7"/><circle cx="452" cy="236" r="5"/><circle cx="434" cy="262" r="4"/>
+  </g>
+  <!-- frame -->
+  <path d="M60 60h680v400H60z" fill="none" stroke="#2d3239" stroke-width="3"/>
+  <text x="86" y="438" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#f2f1ed" opacity="0.55">SEALED</text>
+  <text x="640" y="438" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#13151a" opacity="0.75">UNSEALED</text>
+</svg>

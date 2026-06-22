@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Maintenance category graphic">
+  <rect width="1200" height="630" fill="#16181c"/>
+  <g stroke="#1f2227" stroke-width="2">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630"/>
+  </g>
+  <!-- crack being intercepted by plan -->
+  <path d="M150 520l90-110-40-70 110-130-30-80 80-90" stroke="#0d0e10" stroke-width="14" fill="none" stroke-linejoin="round"/>
+  <path d="M150 520l90-110-40-70 110-130" stroke="#f47921" stroke-width="7" fill="none" stroke-linejoin="round"/>
+  <!-- calendar block -->
+  <g transform="translate(700,150)">
+    <rect width="340" height="300" fill="#22262b" stroke="#2d3239" stroke-width="4"/>
+    <rect width="340" height="64" fill="#f47921"/>
+    <g fill="#13151a" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="5">
+      <text x="24" y="43">MAINTENANCE PLAN</text>
+    </g>
+    <g fill="none" stroke="#ffc933" stroke-width="5" stroke-linecap="round">
+      <path d="M40 120l12 14 22-26M40 196l12 14 22-26M40 272l12 14 22-26"/>
+    </g>
+    <g stroke="#4a515a" stroke-width="5">
+      <path d="M110 116h190M110 192h190M110 268h190"/>
+    </g>
+  </g>
+  <text x="64" y="560" font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="10" fill="#f2f1ed" opacity="0.16">MAINTENANCE</text>
+</svg>
