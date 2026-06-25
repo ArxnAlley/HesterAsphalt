@@ -234,9 +234,8 @@
 }
 @media (max-width: 760px) {
   /* Shrink only the supporting hero paragraph; headline stays prominent */
-  .hero .hero-lede { font-size: 14px; }
-  /* Pull hero content up sooner so the background video shows more on
-     smaller devices */
+  .hero .hero-lede { font-size: 13.5px; line-height: 1.58; max-width: 44ch; }
+  /* Pull hero content up so the background video shows more on smaller devices */
   .hero-inner { padding-block: 130px 100px; }
 }
 @media (max-width: 600px) {
@@ -248,4 +247,8 @@
 @media (max-width: 520px) {
   /* Override global h-hero shrink so the homepage headline keeps its impact */
   .hero .h-hero { font-size: clamp(42px, 12vw, 64px); }
+  /* Increase spacing before CTAs so they sit lower in the viewport */
+  .hero-ctas { margin-top: 54px; }
+  /* Tighten lede further on narrowest screens */
+  .hero .hero-lede { font-size: 13px; max-width: 38ch; }
 }
